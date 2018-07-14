@@ -39,7 +39,7 @@ function setupModeButtons(){
 			modeButtons[0].classList.remove("selected");
 			modeButtons[1].classList.remove("selected");
 			this.classList.add("selected");
-			this.textContent === "easy" ? numSquares = 3: numSquares = 6;
+			this.textContent === "Easy" ? numSquares = 3: numSquares = 6;
 			reset();
 		});
 	}		
